@@ -28,7 +28,7 @@ class Home extends Component {
            <div>
                {
                    this.state.data.map((animal, key) => {
-                       return <div key={key} onClick={() => someFunc(key)}>I am an {animal.name} and I have a 
+                       return <div key={key} >I am an {animal.name} and I have a 
                            {
                                animal.features.map((feature, key) => <span key={key}>{' ' + feature + ', '}</span>)
                            }
